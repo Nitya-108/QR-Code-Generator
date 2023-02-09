@@ -21,6 +21,7 @@ body {
     border-radius: 10px;
 }
 
+
 .container p{
     font-weight: 600;
     font-size: 15px;
@@ -49,14 +50,16 @@ body {
     cursor: pointer;
     margin: 20px 0;
     font-weight: 500;
+    transition: 1s;
 }
+
 
 #imgBox {
     width: 200px;
     border-radius: 5px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s;
+    transition: max-height 3s;
 }
 
 #imgBox img {
